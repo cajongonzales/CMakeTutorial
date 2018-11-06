@@ -1,0 +1,3 @@
+/home/protech/CMake_Tutorial/Step1/build/CMakeFiles/edit_cache.dir
+/home/protech/CMake_Tutorial/Step1/build/CMakeFiles/rebuild_cache.dir
+/home/protech/CMake_Tutorial/Step1/build/CMakeFiles/Tutorial.dir
