@@ -1,0 +1,4 @@
+/home/protech/CMakeTutorial/Step4/bin/Tutorial
+/home/protech/CMakeTutorial/Step4/include/TutorialConfig.h
+/home/protech/CMakeTutorial/Step4/bin/libMathFunctions.a
+/home/protech/CMakeTutorial/Step4/include/MathFunctions.h

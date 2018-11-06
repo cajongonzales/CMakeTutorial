@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/protech/CMakeTutorial/Step3/tutorial.cxx
+cmath
+-
+iostream
+-
+string
+-
+TutorialConfig.h
+/home/protech/CMakeTutorial/Step3/TutorialConfig.h
+MathFunctions.h
+/home/protech/CMakeTutorial/Step3/MathFunctions.h
+
+TutorialConfig.h
+

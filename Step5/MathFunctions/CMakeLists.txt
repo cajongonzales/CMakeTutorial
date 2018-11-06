@@ -4,7 +4,9 @@ add_library(MathFunctions mysqrt.cxx)
 # to find MathFunctions.h, while we don't.
 target_include_directories(MathFunctions
           INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
+          PRIVATE ${Tutorial_BINARY_DIR}
           )
 
 install(TARGETS MathFunctions DESTINATION lib)
 install(FILES MathFunctions.h DESTINATION include)
+

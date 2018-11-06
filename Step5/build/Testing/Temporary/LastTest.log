@@ -1,0 +1,95 @@
+Start testing: Nov 06 16:27 EST
+----------------------------------------------------------
+4/5 Testing: Comp-25
+4/5 Test: Comp-25
+Command: "/home/protech/CMakeTutorial/Step5/build/Tutorial" "-25"
+Directory: /home/protech/CMakeTutorial/Step5/build
+"Comp-25" start time: Nov 06 16:27 EST
+Output:
+----------------------------------------------------------
+The square root of -25 is 0
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[-25 is [nan|0]
+]
+"Comp-25" end time: Nov 06 16:27 EST
+"Comp-25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: Usage
+2/5 Test: Usage
+Command: "/home/protech/CMakeTutorial/Step5/build/Tutorial"
+Directory: /home/protech/CMakeTutorial/Step5/build
+"Usage" start time: Nov 06 16:27 EST
+Output:
+----------------------------------------------------------
+/home/protech/CMakeTutorial/Step5/build/Tutorial Version 1.1
+Usage: /home/protech/CMakeTutorial/Step5/build/Tutorial number
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[Usage:.*number
+]
+"Usage" end time: Nov 06 16:27 EST
+"Usage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/5 Testing: Runs
+1/5 Test: Runs
+Command: "/home/protech/CMakeTutorial/Step5/build/Tutorial" "25"
+Directory: /home/protech/CMakeTutorial/Step5/build
+"Runs" start time: Nov 06 16:27 EST
+Output:
+----------------------------------------------------------
+Computing sqrt of 25 to be 5 using log
+The square root of 25 is 5
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Runs" end time: Nov 06 16:27 EST
+"Runs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: Comp25
+3/5 Test: Comp25
+Command: "/home/protech/CMakeTutorial/Step5/build/Tutorial" "25"
+Directory: /home/protech/CMakeTutorial/Step5/build
+"Comp25" start time: Nov 06 16:27 EST
+Output:
+----------------------------------------------------------
+Computing sqrt of 25 to be 5 using log
+The square root of 25 is 5
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[25 is 5
+]
+"Comp25" end time: Nov 06 16:27 EST
+"Comp25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: Comp0.0001
+5/5 Test: Comp0.0001
+Command: "/home/protech/CMakeTutorial/Step5/build/Tutorial" "0.0001"
+Directory: /home/protech/CMakeTutorial/Step5/build
+"Comp0.0001" start time: Nov 06 16:27 EST
+Output:
+----------------------------------------------------------
+Computing sqrt of 0.0001 to be 0.01 using log
+The square root of 0.0001 is 0.01
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[0.0001 is 0.01
+]
+"Comp0.0001" end time: Nov 06 16:27 EST
+"Comp0.0001" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 06 16:27 EST
