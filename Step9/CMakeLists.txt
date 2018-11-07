@@ -4,6 +4,8 @@ project(Tutorial)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+  option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
+
 # the version number.
 set(Tutorial_VERSION_MAJOR 1)
 set(Tutorial_VERSION_MINOR 0)
@@ -23,11 +25,7 @@ configure_file(
   "${PROJECT_BINARY_DIR}/TutorialVersion.h"
   )
 
-# add the MathFunctions library?
-if(USE_MYMATH)
-  add_subdirectory(MathFunctions)
-  list(APPEND EXTRA_LIBS MathFunctions)
-endif()
+ add_subdirectory(MathFunctions)
 
 # add the executable
 add_executable(Tutorial tutorial.cxx)

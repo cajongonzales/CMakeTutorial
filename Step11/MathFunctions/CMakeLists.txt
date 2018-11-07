@@ -56,5 +56,5 @@ target_compile_definitions(MathFunctions PRIVATE "$<$<BOOL:${USE_MYMATH}>:USE_MY
 #building on windows
 target_compile_definitions(MathFunctions PRIVATE "EXPORTING_MYMATH")
 
-install(TARGETS MathFunctions DESTINATION lib)
+install(TARGETS MathFunctions DESTINATION lib EXPORT MathFunctionsTargets)
 install(FILES MathFunctions.h DESTINATION include)
